@@ -10,8 +10,10 @@ var prod = true;
 
 if (prod) {
     port = 8080;
-    urlmongo = "mongodb://uiqih4yxnei1hpm:wmKFfwvWZufjvb3TGr0V@bus1nkbynrpnrwo-mongodb.services.clever-cloud.com:27017/bus1nkbynrpnrwo";
-    hostname = 'memento.cleverapps.io';
+    //urlmongo = "mongodb://uiqih4yxnei1hpm:wmKFfwvWZufjvb3TGr0V@bus1nkbynrpnrwo-mongodb.services.clever-cloud.com:27017/bus1nkbynrpnrwo";
+    urlmongo = "mongodb://u4iswuogrglyovt:dz1SP9eC2zpETyC6VOwa@bqm7g8l0pvv7lpt-mongodb.services.clever-cloud.com:27017/bqm7g8l0pvv7lpt";
+    hostname = 'eases-memory.cleverapps.io';
+    //hostname = 'memento.cleverapps.io';
     var hostname = '0.0.0.0';
 } else {
     port = 3000;
